@@ -10,7 +10,7 @@ cloudinary.config({
 });
 
 const uploadOnCloudinary = async (localFilePath) => {
-    console.log("Function called");
+    //console.log("Function called");
     try {
         if(!localFilePath) throw new ApiError({
             statusCode: 400,
